@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Voor rijinstructeurs en kleine rijscholen: lessen in een weekrooster, leerlingen boeken zelf, en per leerling de stappen naar het CBR-examen.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Rijles Rooster</a></div>
-  <nav class="top"><a href="#wat" data-ev="click_nav_wat">Wat u krijgt</a><a href="price.html" data-ev="click_nav_prijs">Prijs</a><a href="#voorbeeld" data-ev="click_nav_voorbeeld">Voorbeeld</a><a href="#start" data-ev="click_nav_start">Starten</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Rijles Rooster</a>
+  <nav><a href="#wat" data-ev="click_nav_wat">Wat u krijgt</a><a href="price.html" data-ev="click_nav_prijs">Prijs</a><a href="#voorbeeld" data-ev="click_nav_voorbeeld">Voorbeeld</a><a href="#start" data-ev="click_nav_start">Starten</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Uw rijlessen in één rooster — en per leerling zichtbaar hoe ver de CBR-examenaanvraag is</h1>
-    <p class="sub">Voor zelfstandige instructeurs en rijscholen met een paar instructeurs: weekrooster met lessen en vrije tijden, leerlingen boeken via een link, gereden lessen worden geteld, en per leerling ziet u de stappen naar het examen — machtiging, gezondheidsverklaring, reservering en uitslag.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Dit heb ik nodig</a>
-    <p class="cta-note">Dienst in voorbereiding · Op deze pagina wordt niet betaald</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Voor zelfstandige instructeurs en rijscholen</p>
+      <h1 class="rise" style="--i:1" data-len="long">Uw rijlessen in één rooster&nbsp;<span class="soft">— en per leerling zichtbaar hoe ver de CBR-examenaanvraag is</span></h1>
+      <p class="rise" style="--i:2">Voor zelfstandige instructeurs en rijscholen met een paar instructeurs: weekrooster met lessen en vrije tijden, leerlingen boeken via een link, gereden lessen worden geteld, en per leerling ziet u de stappen naar het examen — machtiging, gezondheidsverklaring, reservering en uitslag.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Dit heb ik nodig</a>
+      <p class="meta rise" style="--i:4">Dienst in voorbereiding · Op deze pagina wordt niet betaald</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="160" font-size="40" font-weight="600" fill="#0a1524">Weekrooster</text><line x1="130" y1="210" x2="1070" y2="210" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="130" y="250" width="560" height="70" rx="14" fill="#dfe8f7" /><rect x="130" y="340" width="560" height="70" rx="14" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="430" width="400" height="70" rx="14" fill="#12397a" /><rect x="130" y="520" width="560" height="70" rx="14" fill="#dde2ea" /><text x="780" y="300" font-size="32" font-weight="600" fill="#0a1524">Examen</text><circle cx="840" cy="410" r="28" fill="#12397a" /><circle cx="940" cy="410" r="28" fill="#dfe8f7" /><circle cx="1040" cy="410" r="28" fill="#ffffff" stroke="#dde2ea" stroke-width="4" /><text x="780" y="540" font-size="32" font-weight="600" fill="#0a1524">Lessen</text><rect x="780" y="580" width="260" height="28" rx="8" fill="#b9c3d2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Voor</dt><dd>Zelfstandige instructeurs en rijscholen</dd></div>
+      <div><dt>Leerlingen</dt><dd>Boeken via een link</dd></div>
+      <div><dt>Browser</dt><dd>In de browser</dd></div>
+      <div><dt>Dienst</dt><dd>In voorbereiding</dd></div>
+    </dl>
+  </section>
 
   <section id="wat" data-view="features_view">
-    <h2>Wat u krijgt</h2>
-    <div class="grid">
-      <div class="card"><b>Weekrooster</b><span>Lessen en vrije tijden op uw telefoon, tussen twee ritten door.</span><br><a class="btn" href="price.html" data-ev="feature_rooster">Dit heb ik nodig</a></div>
-      <div class="card"><b>Boeken via link</b><span>Leerlingen kiezen zelf een vrij moment.</span><br><a class="btn" href="price.html" data-ev="feature_boeken">Dit heb ik nodig</a></div>
-      <div class="card"><b>Examen bijhouden</b><span>Machtiging, gezondheidsverklaring, reservering en uitslag per leerling.</span><br><a class="btn" href="price.html" data-ev="feature_examen">Dit heb ik nodig</a></div>
-      <div class="card"><b>Lessen geteld</b><span>Gereden lessen en pakketten per leerling.</span><br><a class="btn" href="price.html" data-ev="feature_lessen">Dit heb ik nodig</a></div>
+    <div class="stack"><h2>Wat u krijgt</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">Weekrooster</text><rect x="140" y="220" width="520" height="56" rx="12" fill="#dfe8f7" /><rect x="140" y="300" width="360" height="56" rx="12" fill="#12397a" /><rect x="140" y="380" width="520" height="56" rx="12" fill="#dde2ea" /><rect x="140" y="460" width="200" height="40" rx="12" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Weekrooster</h3><p>Lessen en vrije tijden op uw telefoon, tussen twee ritten door.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_rooster">Dit heb ik nodig</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="80" y="120" font-size="34" font-weight="600" fill="#0a1524">Boeken via link</text><rect x="70" y="180" width="240" height="320" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="500" y="180" width="240" height="320" rx="16" fill="#dfe8f7" /><polygon points="340,310 450,310 450,290 490,330 450,370 450,350 340,350" fill="#12397a" /><rect x="100" y="240" width="180" height="28" rx="8" fill="#dde2ea" /><rect x="100" y="310" width="140" height="28" rx="8" fill="#b9c3d2" /><rect x="530" y="250" width="180" height="70" rx="12" fill="#ffffff" /></svg></div>
+        <h3>Boeken via link</h3><p>Leerlingen kiezen zelf een vrij moment.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_boeken">Dit heb ik nodig</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="32" font-weight="600" fill="#0a1524">Examen bijhouden</text><rect x="140" y="210" width="500" height="60" rx="28" fill="#dfe8f7" /><rect x="140" y="300" width="500" height="60" rx="28" fill="#ffffff" stroke="#12397a" stroke-width="4" /><rect x="140" y="390" width="380" height="60" rx="28" fill="#12397a" /><rect x="140" y="470" width="240" height="36" rx="16" fill="#dde2ea" /></svg></div>
+        <h3>Examen bijhouden</h3><p>Machtiging, gezondheidsverklaring, reservering en uitslag per leerling.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_examen">Dit heb ik nodig</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">Lessen geteld</text><line x1="150" y1="470" x2="660" y2="470" stroke="#566174" stroke-width="4" fill="none" /><rect x="180" y="300" width="70" height="170" rx="8" fill="#dfe8f7" /><rect x="280" y="250" width="70" height="220" rx="8" fill="#dde2ea" /><rect x="380" y="210" width="70" height="260" rx="8" fill="#12397a" /><rect x="480" y="340" width="70" height="130" rx="8" fill="#b9c3d2" /><rect x="580" y="280" width="70" height="190" rx="8" fill="#dfe8f7" /></svg></div>
+        <h3>Lessen geteld</h3><p>Gereden lessen en pakketten per leerling.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_lessen">Dit heb ik nodig</a>
+      </article>
     </div>
   </section>
 
-  <section id="voorbeeld" data-view="example_view">
-    <h2>Voorbeeld (fictieve gegevens)</h2>
-    <p class="fine">Zelfstandige instructeur met één auto en 30 leerlingen. Op zondagavond boeken acht leerlingen hun lessen via de link. Bij drie leerlingen staat in het overzicht dat de gezondheidsverklaring nog niet is goedgekeurd, bij één dat de machtiging is gegeven en het praktijkexamen kan worden gereserveerd.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Kies uw pakket</a>
+  <section id="voorbeeld" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Voorbeeld</h2>
+      <p>Zelfstandige instructeur met één auto en 30 leerlingen. Op zondagavond boeken acht leerlingen hun lessen via de link. Bij drie leerlingen staat in het overzicht dat de gezondheidsverklaring nog niet is goedgekeurd, bij één dat de machtiging is gegeven en het praktijkexamen kan worden gereserveerd.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Kies uw pakket</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="160" x2="960" y2="160" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#b9c3d2" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="240" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">zondagavond</text><text x="600" y="240" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">leerlingen</text><text x="960" y="240" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">machtiging</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" font-weight="600" fill="#0a1524">via de link</text><text x="170" y="470" font-size="30" fill="#566174">gezondheidsverklaring</text><rect x="170" y="540" width="80" height="80" rx="12" fill="#12397a" /><rect x="270" y="540" width="80" height="80" rx="12" fill="#dfe8f7" /><rect x="370" y="540" width="80" height="80" rx="12" fill="#dde2ea" /><rect x="470" y="540" width="80" height="80" rx="12" fill="#b9c3d2" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Zo werkt het</h2>
-    <p>Een rijinstructeur zit de hele dag in de auto. De administratie blijft voor 's avonds: lessen afstemmen met leerlingen, verzetten, bijhouden wie hoeveel lessen heeft gereden, en voor elke leerling de stappen naar het examen bij het CBR in de gaten houden.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Zo werkt het</h2></div>
+    <div class="stack">
+      <p>Een rijinstructeur zit de hele dag in de auto. De administratie blijft voor 's avonds: lessen afstemmen met leerlingen, verzetten, bijhouden wie hoeveel lessen heeft gereden, en voor elke leerling de stappen naar het examen bij het CBR in de gaten houden.</p>
     <p>Voor het praktijkexamen moet een leerling de instructeur machtigen, een gezondheidsverklaring indienen en geslaagd zijn voor het theorie-examen. Pas dan kan het examen worden gereserveerd. Wie dat voor dertig leerlingen in zijn hoofd of in een schrift bijhoudt, vergeet vroeg of laat een stap, en een leerling moet langer wachten.</p>
     <p>De software brengt rooster en examenstappen samen. U legt uw werktijden en pauzes vast, en het weekrooster toont uw geboekte lessen en vrije tijden — op uw telefoon, tussen twee ritten door.</p>
     <p>Uw leerlingen krijgen een link waarmee ze zelf een vrij moment boeken. U bepaalt hoe lang een les duurt, hoe ver vooruit geboekt mag worden en tot wanneer afzeggen kan. Lessen die u zelf afspreekt, zet u er met twee tikken in.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Werkt u met meerdere instructeurs of deelt u auto's, dan heeft ieder een eigen rooster, en een auto kan niet dubbel worden geboekt. De rijschoolhouder ziet alle roosters en alle leerlingen samen.</p>
     <p>Starten kost een avond: werktijden, prijzen, pakketten en uw leerlingen. De software werkt in de browser op telefoon, tablet en computer, zonder installatie.</p>
     <p>De software is bedoeld voor zelfstandige rijinstructeurs en kleine rijscholen in Nederland. Ze is in voorbereiding: eerst kijken we of instructeurs haar nodig hebben. Ze is niet verbonden aan het CBR.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Veelgestelde vragen</h2>
-    <h3>Voor wie is de software?</h3>
-    <p>Voor zelfstandige rijinstructeurs en kleine rijscholen in Nederland.</p>
-    <h3>Kunnen leerlingen zelf boeken?</h3>
-    <p>Ja, via een link kiezen ze een van uw vrije momenten.</p>
-    <h3>Reserveert de software het CBR-examen?</h3>
-    <p>Nee. U reserveert via het CBR; de software houdt per leerling de stappen en de examendatum bij.</p>
-    <h3>Moet ik iets installeren?</h3>
-    <p>Nee, de software werkt in de browser op telefoon, tablet en computer.</p>
-    <h3>Kan ik het al gebruiken?</h3>
-    <p>Nog niet. De software is in voorbereiding, en we kijken of instructeurs haar nodig hebben.</p>
+    <div class="stack"><h2>Veelgestelde vragen</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Voor wie is de software?</h3><p>Voor zelfstandige rijinstructeurs en kleine rijscholen in Nederland.</p></div>
+      <div class="split flip"><h3>Kunnen leerlingen zelf boeken?</h3><p>Ja, via een link kiezen ze een van uw vrije momenten.</p></div>
+      <div class="split flip"><h3>Reserveert de software het CBR-examen?</h3><p>Nee. U reserveert via het CBR; de software houdt per leerling de stappen en de examendatum bij.</p></div>
+      <div class="split flip"><h3>Moet ik iets installeren?</h3><p>Nee, de software werkt in de browser op telefoon, tablet en computer.</p></div>
+      <div class="split flip"><h3>Kan ik het al gebruiken?</h3><p>Nog niet. De software is in voorbereiding, en we kijken of instructeurs haar nodig hebben.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Maak uw rooster aan</h2>
-    <p><label>Aantal leerlingen<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— kies —</option><option>Tot 10</option><option>10–30</option><option>30–60</option><option>Meer dan 60</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Starten</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Maak uw rooster aan</h2>
+    </div>
+    <div class="tile stack">
+      <label>Aantal leerlingen<select data-ev-focus="form_start"><option value="">— kies —</option><option>Tot 10</option><option>10–30</option><option>30–60</option><option>Meer dan 60</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Starten</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Rijles Rooster</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Software voor uw lesrooster en examenoverzicht. Niet verbonden aan het CBR.</p>
+  <p>Software voor uw lesrooster en examenoverzicht. Niet verbonden aan het CBR.</p>
 </div></footer>
 
 </body>
